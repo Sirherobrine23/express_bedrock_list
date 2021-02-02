@@ -1,0 +1,27 @@
+{
+  "name": "express_bedrock_list",
+  "version": "1.0.0",
+  "description": "json express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirherobrine23/express_bedrock_list.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Sirherobrine23",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Sirherobrine23/express_bedrock_list/issues"
+  },
+  "homepage": "https://github.com/Sirherobrine23/express_bedrock_list#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
