@@ -1,4 +1,4 @@
-fetch("http://localhost:3256/mcpe").then(response => response.json()).then(server_data => {
+fetch("https://test.sh23.org/mcpe").then(response => response.json()).then(server_data => {
     for (let index in server_data) {
         const option = document.createElement('option')
         option.value = server_data[index].url
