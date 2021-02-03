@@ -11,10 +11,7 @@ app.use(require("body-parser").json())
 app.use(require("body-parser").urlencoded({ extended: true }))
 
 app.get("/mcpe", (req, res) => {
-    if (fs.existsSync())
-        var dir = fs.readdirSync('/var/www/html/Minecraft/mcpe')
-    else
-        var dir = fs.readdirSync('./')
+    var dir = fs.readdirSync('/var/www/html/Minecraft/mcpe')
     var element = '['
     var url_base = `https://f.sh23.org/Minecraft/mcpe`
     for (let index in dir) {
